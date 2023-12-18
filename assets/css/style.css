@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Play:wght@400;700&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../img/space.gif");
+    background-size: cover;
+}
+header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+header nav{  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+h2{
+    font-family: 'Play';
+}
+.panel{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    background: aqua;
+    border-radius: 20px;
+}
+.enemy{
+    background-image: url("../img/alien.png");
+    background-size: cover;
+}
